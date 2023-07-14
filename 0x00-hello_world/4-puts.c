@@ -2,9 +2,8 @@
 
 /**
  * main - prints the phrase Programming is like building a multilingual puzzle
- * Return 0 when executed well, non-zero otherwise
+ * Return o when executed well, non-zero otherwise
  */
-
 int main(void)
 {
        	puts("\"Programming is like building a multilingual puzzle");
