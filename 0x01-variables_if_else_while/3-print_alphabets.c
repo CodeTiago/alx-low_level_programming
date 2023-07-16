@@ -12,7 +12,7 @@ int main(void)
 	/* this part prints in lowercase */
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-                putchar (letter);
+		putchar(letter);
         }
 
 	/* this part will alphabet print in uppercase */
