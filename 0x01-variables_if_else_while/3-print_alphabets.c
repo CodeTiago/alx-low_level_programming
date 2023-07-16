@@ -13,7 +13,7 @@ int main(void)
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(letter);
-        }
+	}
 
 	/* this part will alphabet print in uppercase */
 	for (letter = 'A'; letter <= 'Z'; letter++)
