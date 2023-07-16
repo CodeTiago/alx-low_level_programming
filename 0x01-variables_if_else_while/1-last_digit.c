@@ -7,7 +7,7 @@
  * main - checks either greater than 5, less than 6, or is zero
  *
  * Return: Always 0 when succeded
- * */
+ */
 int main(void)
 {  
         int n;
