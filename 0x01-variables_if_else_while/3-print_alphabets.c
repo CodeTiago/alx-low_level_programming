@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-        char letter;
+	char letter;
 	/* this part prints in lowercase */
-        for (letter = 'a'; letter <= 'z'; letter++)
-        {
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
                 putchar (letter);
         }
 
@@ -20,7 +20,7 @@ int main(void)
 	{
 		putchar(letter);
 	}
-        putchar ('\n');
-        return (0);
+	putchar ('\n');
+	return (0);
 
 }
