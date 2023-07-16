@@ -8,7 +8,8 @@
  * retun 0: if the conndition is either met whether not
  */
 int main()
-{ char = letter;
+{ 
+	char letter;
 	
 	for(letter = 'a'; letter <= 'z'; letter++)
 	{
