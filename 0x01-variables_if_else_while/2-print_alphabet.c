@@ -10,7 +10,7 @@
 int main()
 { char = letter;
 	
-	for(letter = 'a'; lettr <= 'z'; letter++)
+	for(letter = 'a'; letter <= 'z'; letter++)
 	{
 	   putchar(letter);
 	}
