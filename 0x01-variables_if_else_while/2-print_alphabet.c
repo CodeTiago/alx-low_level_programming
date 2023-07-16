@@ -4,7 +4,7 @@
  * main - prints the alphabet in lowercase
  *
  * the loop execute alphabets in lowercase once the condition is met
- * Return 0:for success/ if the conndition is either met or not
+ * Return: Always 0.
  */
 int main(void)
 {
