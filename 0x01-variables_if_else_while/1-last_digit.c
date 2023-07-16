@@ -1,0 +1,31 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ * main - it checks if a num is pos, negat or zero
+ * main - checks either greater than 5, less than 6, or is zero
+ *
+ * Return: Always 0 when succes
+ * */
+int main(void)
+{  
+        int n, l;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	l = n % 10;
+	if (l > 5)
+	{
+	        printf("Last digit %d and is greater than 5\n", n, l);
+	}
+	else if (l == 0)
+	{
+	        printf("Last digit of %d is %d and is 0\n", n, l);
+	}
+	else
+	{
+	        printf("Last digit of %d is %d is less than 6 and not 0\n");
+	}
+	return (0);
+}
