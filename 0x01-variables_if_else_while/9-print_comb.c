@@ -6,10 +6,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-       	int numb;
+{ int numb;
 
-	for (numb = 0; numb <=9; numb++)
+	for (numb = 0; numb <= 9; numb++)
 	{
 		putchar(numb + '0');
 		if (numb != 9)
