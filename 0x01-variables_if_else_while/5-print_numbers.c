@@ -1,18 +1,17 @@
-#include <stdlib.h>
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main: Prints numbers.
+ * main - Prints numbers.
  *
- * Return - 0 if succeded
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char  n;
-
-	for (n = 0; n <= 9; n++)
+	char num;
+	
+	for (num = 0; num <= 9; num++)
 	{
-		printf("%d", n);
+		printf("%d", num);
 	}
 	putchar('\n');
 	return (0);
