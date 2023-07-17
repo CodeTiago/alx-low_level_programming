@@ -10,7 +10,7 @@ int main(void)
 	int numb = 0;
 	int tens, ones;
 
-	while (numb <=99)
+	while (numb <= 99)
 	{
 		tens = numb % 10;
 		ones = numb / 10;
@@ -18,7 +18,7 @@ int main(void)
 		{
 			putchar(ones + '0');
 			putchar(tens + '0');
-			if (numb <89)
+			if (numb < 89)
 			{
 				putchar(',');
 				putchar(' ');
