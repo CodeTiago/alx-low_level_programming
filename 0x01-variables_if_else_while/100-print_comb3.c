@@ -18,6 +18,7 @@ int main(void)
 		{
 			putchar(ones + '0');
 			putchar(tens + '0');
+
 			if (numb < 89)
 			{
 				putchar(',');
