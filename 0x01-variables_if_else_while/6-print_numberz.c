@@ -1,7 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
- * main - prints numbers from 0 to 9 however the program use only putchar
+ * main - Prints all single digit numbers of base 10 starting from 0,
+ *        only using putchar and without char variables.
  *
  *Return - 0 if succeed otherwise terminate
  */
