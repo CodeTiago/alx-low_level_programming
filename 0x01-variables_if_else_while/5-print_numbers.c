@@ -3,7 +3,7 @@
 /**
  *main - prints numbers from 0 to 9
  *
- *Return 0 : if succeded
+ *Return - 0 if succeded
  *
  */
 int main(void)
