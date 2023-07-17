@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers.
+ * main: Prints numbers.
  *
  * Return - 0 if succeded
  */
