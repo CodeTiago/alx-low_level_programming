@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main : prints all single digits number from 0 - 9
+ *main - prints numbers from 0 to 9
  *
  *Return 0 : if succeded
  *
@@ -13,7 +13,6 @@ int main(void)
 	for (n = 0; n <= 9; n++)
 	{
 		printf("%d", n);
-	
 	}
 	putchar('\n');
 	return (0);
