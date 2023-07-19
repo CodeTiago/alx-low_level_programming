@@ -1,28 +1,17 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints the alphabet 10x in lowercase
- * followed by new line
+ * print_alphabet - This is an entry point
  *
- *
- */
-void print_alphabet_x10(void)
+ * Return: 0 if succeed otherwise terminate
+ * */
+void print_alphabet(void)
 {
-	char chr;
-	int i;
-	
-	i = 0;
-	
-	while (i < 10)
+	char tiago = 'a';
+	while (tiago <= 'z')
 	{
-		chr = 'a';
-		
-		while (chr <= 'z')
-		{
-			_putchar(chr);
-			chr++;
-		}
-		_putchar('\n');
-		i++;
+		_putchar(tiago);
+		tiago++;
 	}
+	_putchar('\n');
 
 }
