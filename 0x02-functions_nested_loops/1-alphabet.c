@@ -7,7 +7,7 @@
 void print_alphabet(void)
 {
 	char tiago = 'a';
-	
+
 	while (tiago <= 'z')
 	{
 		_putchar(tiago);
