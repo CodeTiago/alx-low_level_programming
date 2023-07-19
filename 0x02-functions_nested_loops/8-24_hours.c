@@ -5,9 +5,11 @@
  * starting from 00:00 to 23:59
  * Return: no return
  *
- */void jack_bauer(void)
+ */
+void jack_bauer(void)
 {
 	int k, h;
+
 	while (k < 24)
 	{
 		h = 0;
