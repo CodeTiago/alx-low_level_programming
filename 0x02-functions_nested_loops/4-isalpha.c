@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha: the function prototype takes a character parameter and returns
+ * _isalpha - checks alphabetic character parameter and returns
  * its checked value
  *
  * @c: the character to be checked
