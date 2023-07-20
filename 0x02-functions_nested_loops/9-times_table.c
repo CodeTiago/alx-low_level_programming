@@ -3,7 +3,7 @@
 /**
  * times_table - prints the 9s table
  *
- * Return:no return 
+ * Return:no return
  *
  */
 void times_table(void)
