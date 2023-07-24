@@ -5,18 +5,13 @@
  * @s: input string.
  * Return: no return.
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
-	int count = 0;
-
-	while (count >= 0)
+	iant length = string_length(s);
+	int i, j;
+	
+	for (i = 0, j = length - 1; i < j; i++, j--)
 	{
-		if (s[count] == '\0')
-			break;
-		count++;
+		swap_chars(&s[i], &s[j]);
 	}
-
-	for (count--; count >= 0; count--)
-		_putchar(s[count]);
-	_putchar('\n');
 }
