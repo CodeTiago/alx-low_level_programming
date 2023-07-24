@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	long int fib[50];
 	long int i, j, k, next;
 	
 	j = 1;
@@ -15,10 +14,7 @@ int main(void)
 	
 	for (i = 0; i < 50; ++i)
 	{
-		fib[i] = j;
-
-		
-		if (i != 49)
+		if (j != 20365011074)
 		{
 			printf("%ld, ", j);
 		}
